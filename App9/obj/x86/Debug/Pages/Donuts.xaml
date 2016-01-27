@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="App9.Pages.Donuts"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App9.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="HeaderText">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+            <Setter Property="FontSize" Value="24"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center">
+            </Setter>
+        </Style>
+        <Style TargetType="Slider" x:Key="Slide">
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource DonutPageBackground}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Assets/50i1ytu.jpg" Style="{StaticResource HeaderImage}"></Image>
+        <TextBlock Style="{StaticResource HeaderText}" Grid.Row="2" Text="Original Glazed Cunt"></TextBlock>
+        <Slider Grid.Column="1" Grid.Row="2" Minimum="0" Maximum="24"></Slider>
+        <TextBlock Style="{StaticResource HeaderText}" Grid.Row="4" Text="Original Glazed Cunt"></TextBlock>
+        <Slider Grid.Column="1" Grid.Row="4" Minimum="0" Maximum="24"></Slider>
+    </Grid>
+</Page>
+

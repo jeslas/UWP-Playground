@@ -1,0 +1,47 @@
+﻿<Page x:ConnectionId='1' xmlns:Universal="using:Microsoft.AdMediator.Universal" 
+    x:Class="App9.Pages.MediaLibrary"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App9.Pages"
+    xmlns:data1="using:App9.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Storyboard x:ConnectionId='2' x:Name="sb1"                          >
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="prg" Storyboard.TargetProperty="(RangeBase.Value)">
+                <LinearDoubleKeyFrame KeyTime="0:0:0" Value="0" />
+                <LinearDoubleKeyFrame KeyTime="0:0:10" Value="100" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:ConnectionId='3' x:Name="sb2">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="prg" Storyboard.TargetProperty="(RangeBase.Value)">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ProgressBar x:ConnectionId='4' x:Name="prg" Maximum="100" Minimum="0" Foreground="Red"></ProgressBar>
+        <GridView x:ConnectionId='5' Grid.Row="1" IsItemClickEnabled="True"                                                            >
+            <GridView.ItemTemplate>
+                <DataTemplate                        >
+                    <StackPanel x:ConnectionId='8'>
+                        <Image x:ConnectionId='9'                         Stretch="UniformToFill" Width="200" Height="150"></Image>
+                        <TextBlock x:ConnectionId='10'                        />
+                        <TextBlock x:ConnectionId='11'                      />
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <MediaElement x:ConnectionId='6' AutoPlay="True" Name="player" />
+        <Universal:AdMediatorControl x:ConnectionId='7' x:Name="AdMediator_D0AFF4" HorizontalAlignment="Center" Height="90" Id="AdMediator-Id-7DECBA2C-E2AA-42ED-BAA6-A5F5D1F5F48D" Grid.Row="2" Width="728"/>
+    </Grid>
+</Page>
+

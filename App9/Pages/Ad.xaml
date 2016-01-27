@@ -1,0 +1,22 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App9.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Universal="using:Microsoft.AdMediator.Universal"
+    x:Class="App9.Pages.Ad"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Universal:AdMediatorControl 
+            x:Name="AdMediator_EC05E4" 
+            HorizontalAlignment="Left" 
+            Height="250" 
+            Id="AdMediator-Id-9BC4E4CA-1BAC-4E1A-8238-602935F40216" 
+            VerticalAlignment="Top" 
+            Width="300"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,61 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="App9.UserControls.AdeptlyAdaptive"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App9.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="200">
+
+    <UserControl.Resources>
+        <Style TargetType="TextBlock" x:Key="Content">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="SubContent">
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+        <Style TargetType="Image" x:Key="Hero">
+            <Setter Property="Stretch" Value="UniformToFill" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid x:ConnectionId='2' Height="300" Width="200" Background="White" Name="MainGrid">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MainGrid.Height" Value="300"></Setter>
+                        <Setter Target="MainGrid.Width" Value="200"></Setter>
+                        <Setter Target="GirlImage.Height" Value="150"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MainGrid.Height" Value="400"></Setter>
+                        <Setter Target="MainGrid.Width" Value="400"></Setter>
+                        <Setter Target="GirlImage.Height" Value="300"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Image x:ConnectionId='3'                              Style="{StaticResource Hero}" Name="GirlImage" Height="150" />
+        <TextBlock x:ConnectionId='4' Margin="10,10,10,10" Grid.Row="1"                           TextWrapping="Wrap" Style="{StaticResource Content}" />
+        <TextBlock x:ConnectionId='5' Margin="10,10,10,10" Grid.Row="2"                          Style="{StaticResource SubContent}" />
+    </Grid>
+</UserControl>
+

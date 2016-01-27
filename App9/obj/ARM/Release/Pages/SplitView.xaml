@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="App9.Pages.SplitView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App9.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:ConnectionId='1' Content="Split"                     ></Button>
+        <SplitView x:ConnectionId='2' DisplayMode="CompactInline" CompactPaneLength="10" OpenPaneLength="100" Name="Splt1" Grid.Row="1">
+            <SplitView.Pane>
+                <StackPanel>
+                    <TextBlock Text="Aslkdk als 1"></TextBlock>
+                    <TextBlock Text="Aslkdk als 2"></TextBlock>
+                    <TextBlock Text="Aslkdk als 3"></TextBlock>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <StackPanel>
+                    <TextBlock Text="KOOAOSDK 1"></TextBlock>
+                    <TextBlock Text="KOOAOSDK 2"></TextBlock>
+                    <TextBlock Text="KOOAOSDK 3"></TextBlock>
+                </StackPanel>
+            </SplitView.Content>
+        </SplitView>
+    </Grid>
+</Page>
+

@@ -1,0 +1,53 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="App9.Pages.BindingListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App9.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:data="using:App9.Models">
+
+    <Page.Resources>
+        <DataTemplate                        x:Key="GirlTemplate">
+            <StackPanel x:ConnectionId='2' Orientation="Horizontal">
+                <Image x:ConnectionId='3' Width="200" Height="400" Stretch="UniformToFill"                        ></Image>
+                <StackPanel Margin="20,0,0,0" VerticalAlignment="Center">
+                    <TextBlock x:ConnectionId='4' FontSize="36"                     ></TextBlock>
+                    <TextBlock x:ConnectionId='5' FontSize="24"                    ></TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListView x:ConnectionId='6'                              IsItemClickEnabled="True"                                ItemTemplate="{StaticResource GirlTemplate}"></ListView>
+        <StackPanel Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center" Grid.Column="0" Text="Name: "></TextBlock>
+                <TextBox x:ConnectionId='8' Grid.Column="1" Name="NameTxt" Width="100"></TextBox>
+                <TextBlock Margin="20,0,0,0" VerticalAlignment="Center" Grid.Column="2" Text="Age: "></TextBlock>
+                <TextBox x:ConnectionId='9' Grid.Column="3" Name="AgeTxt" Width="100"></TextBox>
+                <TextBlock Margin="20,0,0,0" VerticalAlignment="Center" Grid.Column="4" Text="Image: "></TextBlock>
+                <TextBox x:ConnectionId='10' Grid.Column="5" Name="ImageTxt" Width="100"></TextBox>
+                <Button x:ConnectionId='11' Content="Save" Grid.Column="6" Margin="20,0,0,0"                     ></Button>
+            </Grid>
+            <TextBlock x:ConnectionId='7' Foreground="Red" FontSize="48" Name="ResultTxt"></TextBlock>
+        </StackPanel>
+        
+    </Grid>
+</Page>
+
