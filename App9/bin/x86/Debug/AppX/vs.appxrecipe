@@ -9,8 +9,8 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f8828ca7-65ff-4a6a-acf5-8e20459dc5dc</PackageIdentityName>
-    <IntermediateOutputPath>E:\Temp\App9\App9\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>D324E5E11C504DB31E7D64F9F4452E91F10680A897AA503A471D64A2B0F0E7F2</RegisteredManifestChecksum>
+    <IntermediateOutputPath>E:\GitHub2\UWP-Playground\App9\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>47C7FCE6C45356C5F5BBED5B4D0428F8FB3A5856F0901E020ACD85F70F9D3F00</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f8828ca7-65ff-4a6a-acf5-8e20459dc5dc_1.0.0.0_x86__wvs4twp2qb7c4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f8828ca7-65ff-4a6a-acf5-8e20459dc5dc_wvs4twp2qb7c4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>f8828ca7-65ff-4a6a-acf5-8e20459dc5dc</RegisteredPackageID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Temp\App9\App9\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\GitHub2\UWP-Playground\App9\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-21T21:18:12.779</Modified>
+      <Modified>2016-01-28T20:00:56.825</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\bin\x86\Debug\App9.exe">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\bin\x86\Debug\App9.exe">
       <PackagePath>entrypoint\App9.exe</PackagePath>
-      <Modified>2016-01-21T21:09:34.044</Modified>
+      <Modified>2016-01-28T19:58:18.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.AdMediator.Universal\1.0\References\CommonConfiguration\Neutral\Microsoft.AdMediator.Core.dll">
       <PackagePath>Microsoft.AdMediator.Core.dll</PackagePath>
@@ -458,147 +458,151 @@
       <PackagePath>Microsoft.AdMediator.Universal\Themes\Generic.xbf</PackagePath>
       <Modified>2015-11-05T14:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\AdMediator.config">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\AdMediator.config">
       <PackagePath>AdMediator.config</PackagePath>
       <Modified>2016-01-21T20:28:58.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\50i1ytu.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\50i1ytu.jpg">
       <PackagePath>Assets\50i1ytu.jpg</PackagePath>
       <Modified>2016-01-07T18:34:32.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\7013935-rain-couple-bridge.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\7013935-rain-couple-bridge.jpg">
       <PackagePath>Assets\7013935-rain-couple-bridge.jpg</PackagePath>
       <Modified>2016-01-16T13:50:48.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\drizzle__by_niki91-d57kcpt.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\drizzle__by_niki91-d57kcpt.jpg">
       <PackagePath>Assets\drizzle__by_niki91-d57kcpt.jpg</PackagePath>
       <Modified>2016-01-16T13:50:48.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\emEBvdh.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\emEBvdh.jpg">
       <PackagePath>Assets\emEBvdh.jpg</PackagePath>
       <Modified>2016-01-08T20:27:24.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\fEozam7.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\fEozam7.jpg">
       <PackagePath>Assets\fEozam7.jpg</PackagePath>
       <Modified>2016-01-08T20:27:24.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\FlpQaRm.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\FlpQaRm.jpg">
       <PackagePath>Assets\FlpQaRm.jpg</PackagePath>
       <Modified>2016-01-08T20:25:58.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\hot_girl_in_rain_hd-wide.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\hot_girl_in_rain_hd-wide.jpg">
       <PackagePath>Assets\hot_girl_in_rain_hd-wide.jpg</PackagePath>
       <Modified>2016-01-16T13:50:48.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\nwHnpL4.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\nwHnpL4.jpg">
       <PackagePath>Assets\nwHnpL4.jpg</PackagePath>
       <Modified>2016-01-08T20:27:24.732</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\ooQXlP0.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\ooQXlP0.jpg">
       <PackagePath>Assets\ooQXlP0.jpg</PackagePath>
       <Modified>2016-01-04T19:58:44.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\PolandWinter_ROW12765572701_1366x768.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\PolandWinter_ROW12765572701_1366x768.jpg">
       <PackagePath>Assets\PolandWinter_ROW12765572701_1366x768.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\RedLakeBolivia_ROW14723021979_1920x1080.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\RedLakeBolivia_ROW14723021979_1920x1080.jpg">
       <PackagePath>Assets\RedLakeBolivia_ROW14723021979_1920x1080.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.206</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\RockyFog_ROW11830938350_1920x1080.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\RockyFog_ROW11830938350_1920x1080.jpg">
       <PackagePath>Assets\RockyFog_ROW11830938350_1920x1080.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\RWBlackbird_ROW9876826987_1920x1080.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\RWBlackbird_ROW9876826987_1920x1080.jpg">
       <PackagePath>Assets\RWBlackbird_ROW9876826987_1920x1080.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\SmoketreeDew_ROW16416575560_1920x1080.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\SmoketreeDew_ROW16416575560_1920x1080.jpg">
       <PackagePath>Assets\SmoketreeDew_ROW16416575560_1920x1080.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\snow.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\snow.jpg">
       <PackagePath>Assets\snow.jpg</PackagePath>
       <Modified>2016-01-16T13:50:48.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\StoatWinter_ROW11086894844_1920x1080.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\StoatWinter_ROW11086894844_1920x1080.jpg">
       <PackagePath>Assets\StoatWinter_ROW11086894844_1920x1080.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\UnderwaterRays_ROW13751361322_1366x768.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\UnderwaterRays_ROW13751361322_1366x768.jpg">
       <PackagePath>Assets\UnderwaterRays_ROW13751361322_1366x768.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\WaterCisterns_ROW14099488641_1920x1080.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\WaterCisterns_ROW14099488641_1920x1080.jpg">
       <PackagePath>Assets\WaterCisterns_ROW14099488641_1920x1080.jpg</PackagePath>
       <Modified>2016-01-10T15:06:12.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\xqrarGN.jpg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\xqrarGN.jpg">
       <PackagePath>Assets\xqrarGN.jpg</PackagePath>
       <Modified>2016-01-07T18:35:28.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\thunderstorm2_h.jpeg">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\thunderstorm2_h.jpeg">
       <PackagePath>Assets\thunderstorm2_h.jpeg</PackagePath>
       <Modified>2016-01-16T13:50:48.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Data\WindowsStoreProxy.xml">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Data\CortanaVoice.xml">
+      <PackagePath>Data\CortanaVoice.xml</PackagePath>
+      <Modified>2016-01-28T19:50:04.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Data\WindowsStoreProxy.xml">
       <PackagePath>Data\WindowsStoreProxy.xml</PackagePath>
       <Modified>2016-01-21T21:18:08.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-01-02T12:55:45.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\bin\x86\Debug\App9.xr.xml">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\bin\x86\Debug\App9.xr.xml">
       <PackagePath>App9.xr.xml</PackagePath>
-      <Modified>2016-01-21T20:48:27.185</Modified>
+      <Modified>2016-01-28T19:39:35.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-01-01T21:14:41.783</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-21T21:18:12.608</Modified>
+      <Modified>2016-01-28T20:00:56.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Temp\App9\App9\bin\x86\Debug\Core\App9.exe">
+    <AppxPackagedFile Include="E:\GitHub2\UWP-Playground\App9\bin\x86\Debug\Core\App9.exe">
       <PackagePath>App9.exe</PackagePath>
-      <Modified>2016-01-21T21:18:12.778</Modified>
+      <Modified>2016-01-28T20:00:56.823</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

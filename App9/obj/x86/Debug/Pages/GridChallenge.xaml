@@ -24,8 +24,8 @@
         </Grid.ColumnDefinitions>
         <TextBlock Text="Lorem ipsums" Margin="0,0,0,10" FontSize="48" Grid.ColumnSpan="2"></TextBlock>
         
-        <TextBlock x:ConnectionId='1' Name="Name" Text="Name" Grid.Row="1" VerticalAlignment="Center"></TextBlock>
-        <TextBox x:ConnectionId='2' Name="NameVal" Grid.Row="1" Grid.Column="1"></TextBox>
+        <TextBlock Text="Name" Grid.Row="1" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:ConnectionId='1' Name="NameVal" Grid.Row="1" Grid.Column="1"></TextBox>
 
         <TextBlock Text="Address" Grid.Row="3" VerticalAlignment="Center"></TextBlock>
         <TextBox Grid.Row="3" Grid.Column="1"></TextBox>
@@ -33,7 +33,7 @@
         <TextBlock Text="Email" Grid.Row="5" VerticalAlignment="Center"></TextBlock>
         <TextBox Grid.Row="5" Grid.Column="1"></TextBox>
 
-        <Button x:ConnectionId='3' Content="Save" Grid.Row="7" Grid.Column="1" VerticalAlignment="Bottom"                     ></Button>
+        <Button x:ConnectionId='2' Content="Save" Grid.Row="7" Grid.Column="1" VerticalAlignment="Bottom"                     ></Button>
     </Grid>
 </Page>
 

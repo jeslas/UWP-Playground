@@ -1,1 +1,1 @@
-E:\Temp\App9\App9\App9.csproj;x86
+E:\GitHub2\UWP-Playground\App9\App9.csproj;x86

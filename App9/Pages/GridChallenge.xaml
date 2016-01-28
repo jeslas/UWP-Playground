@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
         <TextBlock Text="Lorem ipsums" Margin="0,0,0,10" FontSize="48" Grid.ColumnSpan="2"></TextBlock>
         
-        <TextBlock Name="Name" Text="Name" Grid.Row="1" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Name" Grid.Row="1" VerticalAlignment="Center"></TextBlock>
         <TextBox Name="NameVal" Grid.Row="1" Grid.Column="1"></TextBox>
 
         <TextBlock Text="Address" Grid.Row="3" VerticalAlignment="Center"></TextBlock>

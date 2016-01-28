@@ -68,8 +68,8 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Name" />
+      <RootProperty Name="Margin" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -353,6 +353,7 @@
     </RootType>
     <RootType FullName="App9.Pages.CommonControls2" />
     <RootType FullName="App9.Pages.Complete" />
+    <RootType FullName="App9.Pages.Cortana" />
     <RootType FullName="App9.Pages.DeviceSpecificView" />
     <RootType FullName="App9.Pages.Donuts" />
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
@@ -371,6 +372,7 @@
     <RootType FullName="App9.MainPage" />
     <RootType FullName="App9.Pages.Hamburgermenu" />
     <RootType FullName="App9.Pages.InAppPurchase" />
+    <RootType FullName="App9.Pages.Marvel" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.LinearDoubleKeyFrame">
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />

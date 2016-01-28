@@ -11,15 +11,17 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <ComboBox x:ConnectionId='2' Width="Auto" Name="Pages"></ComboBox>
-            <Button x:ConnectionId='3' Content="Change"                     ></Button>
-            <Button x:ConnectionId='4' Content="Home"                       ></Button>
-            <Button x:ConnectionId='5' Content="Back"                       ></Button>
-            <Button x:ConnectionId='6' Content="Forward"                       ></Button>
+            <ComboBox x:ConnectionId='3' Width="Auto" Name="Pages"></ComboBox>
+            <Button x:ConnectionId='4' Content="Change"                     ></Button>
+            <Button x:ConnectionId='5' Content="Home"                       ></Button>
+            <Button x:ConnectionId='6' Content="Back"                       ></Button>
+            <Button x:ConnectionId='7' Content="Forward"                       ></Button>
         </StackPanel>
         <Frame x:ConnectionId='1' Name="Content1" Grid.Row="1"></Frame>
+        <TextBlock x:ConnectionId='2' Name="Voice" Grid.Row="2" />
     </Grid>
 
     

@@ -156,7 +156,7 @@ namespace App9.App9_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[60];
+            _typeNameTable = new string[63];
             _typeNameTable[0] = "Microsoft.AdMediator.Universal.AdMediatorControl";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Control";
             _typeNameTable[2] = "String";
@@ -190,35 +190,38 @@ namespace App9.App9_XamlTypeInfo
             _typeNameTable[30] = "App9.Pages.CommonControls";
             _typeNameTable[31] = "App9.Pages.CommonControls2";
             _typeNameTable[32] = "App9.Pages.Complete";
-            _typeNameTable[33] = "App9.Pages.DeviceSpecificView";
-            _typeNameTable[34] = "App9.Pages.Donuts";
-            _typeNameTable[35] = "App9.Pages.GoNuts";
-            _typeNameTable[36] = "App9.Pages.GridChallenge";
-            _typeNameTable[37] = "App9.Pages.GridStackChallenge";
-            _typeNameTable[38] = "App9.Pages.Gridview";
-            _typeNameTable[39] = "App9.Pages.Gridview2";
-            _typeNameTable[40] = "App9.MainPage";
-            _typeNameTable[41] = "App9.Pages.Hamburgermenu";
-            _typeNameTable[42] = "App9.Pages.InAppPurchase";
-            _typeNameTable[43] = "App9.Pages.MediaLibrary";
-            _typeNameTable[44] = "System.Collections.ObjectModel.ObservableCollection`1<App9.Models.Song>";
-            _typeNameTable[45] = "System.Collections.ObjectModel.Collection`1<App9.Models.Song>";
-            _typeNameTable[46] = "App9.Models.Song";
-            _typeNameTable[47] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
-            _typeNameTable[48] = "Windows.Storage.StorageFile";
-            _typeNameTable[49] = "App9.Pages.RelativePanel";
-            _typeNameTable[50] = "App9.Pages.RoundImage";
-            _typeNameTable[51] = "App9.Pages.Schedule";
-            _typeNameTable[52] = "App9.Pages.Scrollviewer";
-            _typeNameTable[53] = "App9.Pages.SplitView";
-            _typeNameTable[54] = "App9.Pages.Stackpanel";
-            _typeNameTable[55] = "App9.Pages.StackpanelChallenge";
-            _typeNameTable[56] = "App9.Pages.Themes";
-            _typeNameTable[57] = "App9.Pages.VisualState";
-            _typeNameTable[58] = "App9.Pages.VisualStateColumns";
-            _typeNameTable[59] = "App9.Pages.Weather";
+            _typeNameTable[33] = "App9.Pages.Cortana";
+            _typeNameTable[34] = "App9.Pages.DeviceSpecificView";
+            _typeNameTable[35] = "App9.Pages.Donuts";
+            _typeNameTable[36] = "App9.Pages.GoNuts";
+            _typeNameTable[37] = "App9.Pages.GridChallenge";
+            _typeNameTable[38] = "App9.Pages.GridStackChallenge";
+            _typeNameTable[39] = "App9.Pages.Gridview";
+            _typeNameTable[40] = "App9.Pages.Gridview2";
+            _typeNameTable[41] = "App9.MainPage";
+            _typeNameTable[42] = "Windows.UI.Xaml.Controls.Frame";
+            _typeNameTable[43] = "App9.Pages.Hamburgermenu";
+            _typeNameTable[44] = "App9.Pages.InAppPurchase";
+            _typeNameTable[45] = "App9.Pages.Marvel";
+            _typeNameTable[46] = "App9.Pages.MediaLibrary";
+            _typeNameTable[47] = "System.Collections.ObjectModel.ObservableCollection`1<App9.Models.Song>";
+            _typeNameTable[48] = "System.Collections.ObjectModel.Collection`1<App9.Models.Song>";
+            _typeNameTable[49] = "App9.Models.Song";
+            _typeNameTable[50] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
+            _typeNameTable[51] = "Windows.Storage.StorageFile";
+            _typeNameTable[52] = "App9.Pages.RelativePanel";
+            _typeNameTable[53] = "App9.Pages.RoundImage";
+            _typeNameTable[54] = "App9.Pages.Schedule";
+            _typeNameTable[55] = "App9.Pages.Scrollviewer";
+            _typeNameTable[56] = "App9.Pages.SplitView";
+            _typeNameTable[57] = "App9.Pages.Stackpanel";
+            _typeNameTable[58] = "App9.Pages.StackpanelChallenge";
+            _typeNameTable[59] = "App9.Pages.Themes";
+            _typeNameTable[60] = "App9.Pages.VisualState";
+            _typeNameTable[61] = "App9.Pages.VisualStateColumns";
+            _typeNameTable[62] = "App9.Pages.Weather";
 
-            _typeTable = new global::System.Type[60];
+            _typeTable = new global::System.Type[63];
             _typeTable[0] = typeof(global::Microsoft.AdMediator.Universal.AdMediatorControl);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Control);
             _typeTable[2] = typeof(global::System.String);
@@ -252,33 +255,36 @@ namespace App9.App9_XamlTypeInfo
             _typeTable[30] = typeof(global::App9.Pages.CommonControls);
             _typeTable[31] = typeof(global::App9.Pages.CommonControls2);
             _typeTable[32] = typeof(global::App9.Pages.Complete);
-            _typeTable[33] = typeof(global::App9.Pages.DeviceSpecificView);
-            _typeTable[34] = typeof(global::App9.Pages.Donuts);
-            _typeTable[35] = typeof(global::App9.Pages.GoNuts);
-            _typeTable[36] = typeof(global::App9.Pages.GridChallenge);
-            _typeTable[37] = typeof(global::App9.Pages.GridStackChallenge);
-            _typeTable[38] = typeof(global::App9.Pages.Gridview);
-            _typeTable[39] = typeof(global::App9.Pages.Gridview2);
-            _typeTable[40] = typeof(global::App9.MainPage);
-            _typeTable[41] = typeof(global::App9.Pages.Hamburgermenu);
-            _typeTable[42] = typeof(global::App9.Pages.InAppPurchase);
-            _typeTable[43] = typeof(global::App9.Pages.MediaLibrary);
-            _typeTable[44] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App9.Models.Song>);
-            _typeTable[45] = typeof(global::System.Collections.ObjectModel.Collection<global::App9.Models.Song>);
-            _typeTable[46] = typeof(global::App9.Models.Song);
-            _typeTable[47] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
-            _typeTable[48] = typeof(global::Windows.Storage.StorageFile);
-            _typeTable[49] = typeof(global::App9.Pages.RelativePanel);
-            _typeTable[50] = typeof(global::App9.Pages.RoundImage);
-            _typeTable[51] = typeof(global::App9.Pages.Schedule);
-            _typeTable[52] = typeof(global::App9.Pages.Scrollviewer);
-            _typeTable[53] = typeof(global::App9.Pages.SplitView);
-            _typeTable[54] = typeof(global::App9.Pages.Stackpanel);
-            _typeTable[55] = typeof(global::App9.Pages.StackpanelChallenge);
-            _typeTable[56] = typeof(global::App9.Pages.Themes);
-            _typeTable[57] = typeof(global::App9.Pages.VisualState);
-            _typeTable[58] = typeof(global::App9.Pages.VisualStateColumns);
-            _typeTable[59] = typeof(global::App9.Pages.Weather);
+            _typeTable[33] = typeof(global::App9.Pages.Cortana);
+            _typeTable[34] = typeof(global::App9.Pages.DeviceSpecificView);
+            _typeTable[35] = typeof(global::App9.Pages.Donuts);
+            _typeTable[36] = typeof(global::App9.Pages.GoNuts);
+            _typeTable[37] = typeof(global::App9.Pages.GridChallenge);
+            _typeTable[38] = typeof(global::App9.Pages.GridStackChallenge);
+            _typeTable[39] = typeof(global::App9.Pages.Gridview);
+            _typeTable[40] = typeof(global::App9.Pages.Gridview2);
+            _typeTable[41] = typeof(global::App9.MainPage);
+            _typeTable[42] = typeof(global::Windows.UI.Xaml.Controls.Frame);
+            _typeTable[43] = typeof(global::App9.Pages.Hamburgermenu);
+            _typeTable[44] = typeof(global::App9.Pages.InAppPurchase);
+            _typeTable[45] = typeof(global::App9.Pages.Marvel);
+            _typeTable[46] = typeof(global::App9.Pages.MediaLibrary);
+            _typeTable[47] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App9.Models.Song>);
+            _typeTable[48] = typeof(global::System.Collections.ObjectModel.Collection<global::App9.Models.Song>);
+            _typeTable[49] = typeof(global::App9.Models.Song);
+            _typeTable[50] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
+            _typeTable[51] = typeof(global::Windows.Storage.StorageFile);
+            _typeTable[52] = typeof(global::App9.Pages.RelativePanel);
+            _typeTable[53] = typeof(global::App9.Pages.RoundImage);
+            _typeTable[54] = typeof(global::App9.Pages.Schedule);
+            _typeTable[55] = typeof(global::App9.Pages.Scrollviewer);
+            _typeTable[56] = typeof(global::App9.Pages.SplitView);
+            _typeTable[57] = typeof(global::App9.Pages.Stackpanel);
+            _typeTable[58] = typeof(global::App9.Pages.StackpanelChallenge);
+            _typeTable[59] = typeof(global::App9.Pages.Themes);
+            _typeTable[60] = typeof(global::App9.Pages.VisualState);
+            _typeTable[61] = typeof(global::App9.Pages.VisualStateColumns);
+            _typeTable[62] = typeof(global::App9.Pages.Weather);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -335,31 +341,33 @@ namespace App9.App9_XamlTypeInfo
         private object Activate_30_CommonControls() { return new global::App9.Pages.CommonControls(); }
         private object Activate_31_CommonControls2() { return new global::App9.Pages.CommonControls2(); }
         private object Activate_32_Complete() { return new global::App9.Pages.Complete(); }
-        private object Activate_33_DeviceSpecificView() { return new global::App9.Pages.DeviceSpecificView(); }
-        private object Activate_34_Donuts() { return new global::App9.Pages.Donuts(); }
-        private object Activate_35_GoNuts() { return new global::App9.Pages.GoNuts(); }
-        private object Activate_36_GridChallenge() { return new global::App9.Pages.GridChallenge(); }
-        private object Activate_37_GridStackChallenge() { return new global::App9.Pages.GridStackChallenge(); }
-        private object Activate_38_Gridview() { return new global::App9.Pages.Gridview(); }
-        private object Activate_39_Gridview2() { return new global::App9.Pages.Gridview2(); }
-        private object Activate_40_MainPage() { return new global::App9.MainPage(); }
-        private object Activate_41_Hamburgermenu() { return new global::App9.Pages.Hamburgermenu(); }
-        private object Activate_42_InAppPurchase() { return new global::App9.Pages.InAppPurchase(); }
-        private object Activate_43_MediaLibrary() { return new global::App9.Pages.MediaLibrary(); }
-        private object Activate_44_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App9.Models.Song>(); }
-        private object Activate_45_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App9.Models.Song>(); }
-        private object Activate_46_Song() { return new global::App9.Models.Song(); }
-        private object Activate_49_RelativePanel() { return new global::App9.Pages.RelativePanel(); }
-        private object Activate_50_RoundImage() { return new global::App9.Pages.RoundImage(); }
-        private object Activate_51_Schedule() { return new global::App9.Pages.Schedule(); }
-        private object Activate_52_Scrollviewer() { return new global::App9.Pages.Scrollviewer(); }
-        private object Activate_53_SplitView() { return new global::App9.Pages.SplitView(); }
-        private object Activate_54_Stackpanel() { return new global::App9.Pages.Stackpanel(); }
-        private object Activate_55_StackpanelChallenge() { return new global::App9.Pages.StackpanelChallenge(); }
-        private object Activate_56_Themes() { return new global::App9.Pages.Themes(); }
-        private object Activate_57_VisualState() { return new global::App9.Pages.VisualState(); }
-        private object Activate_58_VisualStateColumns() { return new global::App9.Pages.VisualStateColumns(); }
-        private object Activate_59_Weather() { return new global::App9.Pages.Weather(); }
+        private object Activate_33_Cortana() { return new global::App9.Pages.Cortana(); }
+        private object Activate_34_DeviceSpecificView() { return new global::App9.Pages.DeviceSpecificView(); }
+        private object Activate_35_Donuts() { return new global::App9.Pages.Donuts(); }
+        private object Activate_36_GoNuts() { return new global::App9.Pages.GoNuts(); }
+        private object Activate_37_GridChallenge() { return new global::App9.Pages.GridChallenge(); }
+        private object Activate_38_GridStackChallenge() { return new global::App9.Pages.GridStackChallenge(); }
+        private object Activate_39_Gridview() { return new global::App9.Pages.Gridview(); }
+        private object Activate_40_Gridview2() { return new global::App9.Pages.Gridview2(); }
+        private object Activate_41_MainPage() { return new global::App9.MainPage(); }
+        private object Activate_43_Hamburgermenu() { return new global::App9.Pages.Hamburgermenu(); }
+        private object Activate_44_InAppPurchase() { return new global::App9.Pages.InAppPurchase(); }
+        private object Activate_45_Marvel() { return new global::App9.Pages.Marvel(); }
+        private object Activate_46_MediaLibrary() { return new global::App9.Pages.MediaLibrary(); }
+        private object Activate_47_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App9.Models.Song>(); }
+        private object Activate_48_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App9.Models.Song>(); }
+        private object Activate_49_Song() { return new global::App9.Models.Song(); }
+        private object Activate_52_RelativePanel() { return new global::App9.Pages.RelativePanel(); }
+        private object Activate_53_RoundImage() { return new global::App9.Pages.RoundImage(); }
+        private object Activate_54_Schedule() { return new global::App9.Pages.Schedule(); }
+        private object Activate_55_Scrollviewer() { return new global::App9.Pages.Scrollviewer(); }
+        private object Activate_56_SplitView() { return new global::App9.Pages.SplitView(); }
+        private object Activate_57_Stackpanel() { return new global::App9.Pages.Stackpanel(); }
+        private object Activate_58_StackpanelChallenge() { return new global::App9.Pages.StackpanelChallenge(); }
+        private object Activate_59_Themes() { return new global::App9.Pages.Themes(); }
+        private object Activate_60_VisualState() { return new global::App9.Pages.VisualState(); }
+        private object Activate_61_VisualStateColumns() { return new global::App9.Pages.VisualStateColumns(); }
+        private object Activate_62_Weather() { return new global::App9.Pages.Weather(); }
         private void MapAdd_5_IDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.TimeSpan>)instance;
@@ -385,13 +393,13 @@ namespace App9.App9_XamlTypeInfo
             var newItem = (global::App9.Models.Nav)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_44_ObservableCollection(object instance, object item)
+        private void VectorAdd_47_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::App9.Models.Song>)instance;
             var newItem = (global::App9.Models.Song)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_45_Collection(object instance, object item)
+        private void VectorAdd_48_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::App9.Models.Song>)instance;
             var newItem = (global::App9.Models.Song)item;
@@ -637,101 +645,120 @@ namespace App9.App9_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  App9.Pages.DeviceSpecificView
+            case 33:   //  App9.Pages.Cortana
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_33_DeviceSpecificView;
+                userType.Activator = Activate_33_Cortana;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  App9.Pages.Donuts
+            case 34:   //  App9.Pages.DeviceSpecificView
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_Donuts;
+                userType.Activator = Activate_34_DeviceSpecificView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 35:   //  App9.Pages.GoNuts
+            case 35:   //  App9.Pages.Donuts
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_GoNuts;
+                userType.Activator = Activate_35_Donuts;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 36:   //  App9.Pages.GridChallenge
+            case 36:   //  App9.Pages.GoNuts
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_36_GridChallenge;
+                userType.Activator = Activate_36_GoNuts;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  App9.Pages.GridStackChallenge
+            case 37:   //  App9.Pages.GridChallenge
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_37_GridStackChallenge;
+                userType.Activator = Activate_37_GridChallenge;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 38:   //  App9.Pages.Gridview
+            case 38:   //  App9.Pages.GridStackChallenge
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_Gridview;
+                userType.Activator = Activate_38_GridStackChallenge;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 39:   //  App9.Pages.Gridview2
+            case 39:   //  App9.Pages.Gridview
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_39_Gridview2;
+                userType.Activator = Activate_39_Gridview;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  App9.MainPage
+            case 40:   //  App9.Pages.Gridview2
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_40_MainPage;
+                userType.Activator = Activate_40_Gridview2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  App9.Pages.Hamburgermenu
+            case 41:   //  App9.MainPage
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_Hamburgermenu;
+                userType.Activator = Activate_41_MainPage;
+                userType.AddMemberName("FrameContent");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  App9.Pages.InAppPurchase
+            case 42:   //  Windows.UI.Xaml.Controls.Frame
+                xamlType = new global::App9.App9_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 43:   //  App9.Pages.Hamburgermenu
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_InAppPurchase;
+                userType.Activator = Activate_43_Hamburgermenu;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  App9.Pages.MediaLibrary
+            case 44:   //  App9.Pages.InAppPurchase
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_43_MediaLibrary;
+                userType.Activator = Activate_44_InAppPurchase;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 45:   //  App9.Pages.Marvel
+                userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_45_Marvel;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 46:   //  App9.Pages.MediaLibrary
+                userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_46_MediaLibrary;
                 userType.AddMemberName("Songs");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Collections.ObjectModel.ObservableCollection`1<App9.Models.Song>
+            case 47:   //  System.Collections.ObjectModel.ObservableCollection`1<App9.Models.Song>
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App9.Models.Song>"));
-                userType.CollectionAdd = VectorAdd_44_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_47_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 45:   //  System.Collections.ObjectModel.Collection`1<App9.Models.Song>
+            case 48:   //  System.Collections.ObjectModel.Collection`1<App9.Models.Song>
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_45_Collection;
-                userType.CollectionAdd = VectorAdd_45_Collection;
+                userType.Activator = Activate_48_Collection;
+                userType.CollectionAdd = VectorAdd_48_Collection;
                 xamlType = userType;
                 break;
 
-            case 46:   //  App9.Models.Song
+            case 49:   //  App9.Models.Song
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_46_Song;
+                userType.Activator = Activate_49_Song;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Artist");
                 userType.AddMemberName("Album");
@@ -741,89 +768,89 @@ namespace App9.App9_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 47:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
+            case 50:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
                 xamlType = new global::App9.App9_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  Windows.Storage.StorageFile
+            case 51:   //  Windows.Storage.StorageFile
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 49:   //  App9.Pages.RelativePanel
+            case 52:   //  App9.Pages.RelativePanel
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_49_RelativePanel;
+                userType.Activator = Activate_52_RelativePanel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 50:   //  App9.Pages.RoundImage
+            case 53:   //  App9.Pages.RoundImage
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_50_RoundImage;
+                userType.Activator = Activate_53_RoundImage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 51:   //  App9.Pages.Schedule
+            case 54:   //  App9.Pages.Schedule
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_51_Schedule;
+                userType.Activator = Activate_54_Schedule;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 52:   //  App9.Pages.Scrollviewer
+            case 55:   //  App9.Pages.Scrollviewer
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_52_Scrollviewer;
+                userType.Activator = Activate_55_Scrollviewer;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 53:   //  App9.Pages.SplitView
+            case 56:   //  App9.Pages.SplitView
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_53_SplitView;
+                userType.Activator = Activate_56_SplitView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 54:   //  App9.Pages.Stackpanel
+            case 57:   //  App9.Pages.Stackpanel
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_54_Stackpanel;
+                userType.Activator = Activate_57_Stackpanel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 55:   //  App9.Pages.StackpanelChallenge
+            case 58:   //  App9.Pages.StackpanelChallenge
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_55_StackpanelChallenge;
+                userType.Activator = Activate_58_StackpanelChallenge;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  App9.Pages.Themes
+            case 59:   //  App9.Pages.Themes
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_Themes;
+                userType.Activator = Activate_59_Themes;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  App9.Pages.VisualState
+            case 60:   //  App9.Pages.VisualState
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_57_VisualState;
+                userType.Activator = Activate_60_VisualState;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  App9.Pages.VisualStateColumns
+            case 61:   //  App9.Pages.VisualStateColumns
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_VisualStateColumns;
+                userType.Activator = Activate_61_VisualStateColumns;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  App9.Pages.Weather
+            case 62:   //  App9.Pages.Weather
                 userType = new global::App9.App9_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_Weather;
+                userType.Activator = Activate_62_Weather;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1088,62 +1115,67 @@ namespace App9.App9_XamlTypeInfo
             var that = (global::App9.Pages.BindingListView)instance;
             that.Girls = (global::System.Collections.ObjectModel.ObservableCollection<global::App9.Models.Girl>)Value;
         }
-        private object get_28_MediaLibrary_Songs(object instance)
+        private object get_28_MainPage_FrameContent(object instance)
+        {
+            var that = (global::App9.MainPage)instance;
+            return that.FrameContent;
+        }
+        private object get_29_MediaLibrary_Songs(object instance)
         {
             var that = (global::App9.Pages.MediaLibrary)instance;
             return that.Songs;
         }
-        private void set_28_MediaLibrary_Songs(object instance, object Value)
+        private void set_29_MediaLibrary_Songs(object instance, object Value)
         {
             var that = (global::App9.Pages.MediaLibrary)instance;
             that.Songs = (global::System.Collections.ObjectModel.ObservableCollection<global::App9.Models.Song>)Value;
         }
-        private object get_29_Song_Name(object instance)
+        private object get_30_Song_Name(object instance)
         {
             var that = (global::App9.Models.Song)instance;
             return that.Name;
         }
-        private void set_29_Song_Name(object instance, object Value)
+        private void set_30_Song_Name(object instance, object Value)
         {
             var that = (global::App9.Models.Song)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_30_Song_Artist(object instance)
+        private object get_31_Song_Artist(object instance)
         {
             var that = (global::App9.Models.Song)instance;
             return that.Artist;
         }
-        private void set_30_Song_Artist(object instance, object Value)
+        private void set_31_Song_Artist(object instance, object Value)
         {
             var that = (global::App9.Models.Song)instance;
             that.Artist = (global::System.String)Value;
         }
-        private object get_31_Song_Album(object instance)
+        private object get_32_Song_Album(object instance)
         {
             var that = (global::App9.Models.Song)instance;
             return that.Album;
         }
-        private void set_31_Song_Album(object instance, object Value)
+        private void set_32_Song_Album(object instance, object Value)
         {
             var that = (global::App9.Models.Song)instance;
             that.Album = (global::System.String)Value;
         }
-        private object get_32_Song_Cover(object instance)
+        private object get_33_Song_Cover(object instance)
         {
             var that = (global::App9.Models.Song)instance;
             return that.Cover;
         }
-        private void set_32_Song_Cover(object instance, object Value)
+        private void set_33_Song_Cover(object instance, object Value)
         {
             var that = (global::App9.Models.Song)instance;
             that.Cover = (global::Windows.UI.Xaml.Media.Imaging.BitmapImage)Value;
         }
-        private object get_33_Song_File(object instance)
+        private object get_34_Song_File(object instance)
         {
             var that = (global::App9.Models.Song)instance;
             return that.File;
         }
-        private void set_33_Song_File(object instance, object Value)
+        private void set_34_Song_File(object instance, object Value)
         {
             var that = (global::App9.Models.Song)instance;
             that.File = (global::Windows.Storage.StorageFile)Value;
@@ -1324,41 +1356,47 @@ namespace App9.App9_XamlTypeInfo
                 xamlMember.Getter = get_27_BindingListView_Girls;
                 xamlMember.Setter = set_27_BindingListView_Girls;
                 break;
+            case "App9.MainPage.FrameContent":
+                userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.MainPage");
+                xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "FrameContent", "Windows.UI.Xaml.Controls.Frame");
+                xamlMember.Getter = get_28_MainPage_FrameContent;
+                xamlMember.SetIsReadOnly();
+                break;
             case "App9.Pages.MediaLibrary.Songs":
                 userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.Pages.MediaLibrary");
                 xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "Songs", "System.Collections.ObjectModel.ObservableCollection`1<App9.Models.Song>");
-                xamlMember.Getter = get_28_MediaLibrary_Songs;
-                xamlMember.Setter = set_28_MediaLibrary_Songs;
+                xamlMember.Getter = get_29_MediaLibrary_Songs;
+                xamlMember.Setter = set_29_MediaLibrary_Songs;
                 break;
             case "App9.Models.Song.Name":
                 userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.Models.Song");
                 xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_29_Song_Name;
-                xamlMember.Setter = set_29_Song_Name;
+                xamlMember.Getter = get_30_Song_Name;
+                xamlMember.Setter = set_30_Song_Name;
                 break;
             case "App9.Models.Song.Artist":
                 userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.Models.Song");
                 xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "Artist", "String");
-                xamlMember.Getter = get_30_Song_Artist;
-                xamlMember.Setter = set_30_Song_Artist;
+                xamlMember.Getter = get_31_Song_Artist;
+                xamlMember.Setter = set_31_Song_Artist;
                 break;
             case "App9.Models.Song.Album":
                 userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.Models.Song");
                 xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "Album", "String");
-                xamlMember.Getter = get_31_Song_Album;
-                xamlMember.Setter = set_31_Song_Album;
+                xamlMember.Getter = get_32_Song_Album;
+                xamlMember.Setter = set_32_Song_Album;
                 break;
             case "App9.Models.Song.Cover":
                 userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.Models.Song");
                 xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "Cover", "Windows.UI.Xaml.Media.Imaging.BitmapImage");
-                xamlMember.Getter = get_32_Song_Cover;
-                xamlMember.Setter = set_32_Song_Cover;
+                xamlMember.Getter = get_33_Song_Cover;
+                xamlMember.Setter = set_33_Song_Cover;
                 break;
             case "App9.Models.Song.File":
                 userType = (global::App9.App9_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App9.Models.Song");
                 xamlMember = new global::App9.App9_XamlTypeInfo.XamlMember(this, "File", "Windows.Storage.StorageFile");
-                xamlMember.Getter = get_33_Song_File;
-                xamlMember.Setter = set_33_Song_File;
+                xamlMember.Getter = get_34_Song_File;
+                xamlMember.Setter = set_34_Song_File;
                 break;
             }
             return xamlMember;

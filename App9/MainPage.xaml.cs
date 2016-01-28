@@ -30,12 +30,37 @@ namespace App9
             this.Loaded += MainPage_Loaded;
         }
 
+        public Frame FrameContent { get { return this.Content1; } }
+
+        public void SetFrameContent(Type page, object param = null)
+        {
+            Content1.Navigate(page, param);
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            var speechRecognitionResult = e.Parameter as Windows.Media.SpeechRecognition.SpeechRecognitionResult;
+            if (speechRecognitionResult != null)
+            {
+                // Get the name of the voice command and the text spoken.
+                string voiceCommandName = speechRecognitionResult.RulePath[0];
+                string textSpoken = speechRecognitionResult.Text;
+                var navigationParameterString = string.Format("Cortana: {0} {1}", voiceCommandName, textSpoken);
+                Voice.Text = navigationParameterString;
+
+                if (voiceCommandName == "blankCanvas")
+                    Content1.Navigate(typeof(App9.Pages.Cortana), speechRecognitionResult);
+            }
+            else
+            {
+                Content1.Navigate(typeof(App9.Pages.InAppPurchase));
+            }
+        }
 
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
             Dictionary<string, Type> dic = GetPages();
             Pages.ItemsSource = dic;
-            Content1.Navigate(typeof(App9.Pages.InAppPurchase));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

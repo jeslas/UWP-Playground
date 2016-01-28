@@ -11,6 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
             <ComboBox Width="Auto" Name="Pages"></ComboBox>
@@ -20,6 +21,7 @@
             <Button Content="Forward" Click="Button_Click_3"></Button>
         </StackPanel>
         <Frame Name="Content1" Grid.Row="1"></Frame>
+        <TextBlock Name="Voice" Grid.Row="2" />
     </Grid>
 
     

@@ -7,6 +7,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -35,12 +36,13 @@ namespace App9
             this.Suspending += OnSuspending;
         }
 
+        Frame rootFrame;
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected async override void OnLaunched(LaunchActivatedEventArgs e)
         {
 
 //#if DEBUG
@@ -50,7 +52,7 @@ namespace App9
 //            }
 //#endif
 
-            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
@@ -80,6 +82,12 @@ namespace App9
             }
             // Ensure the current window is active
             Window.Current.Activate();
+
+            //Load cortana
+
+            StorageFolder proxyDataFolder = await Package.Current.InstalledLocation.GetFolderAsync("Data");
+            StorageFile storageFile = await proxyDataFolder.GetFileAsync("CortanaVoice.xml");
+            await Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager.InstallCommandDefinitionsFromStorageFileAsync(storageFile);
         }
 
         /// <summary>
@@ -106,6 +114,17 @@ namespace App9
             deferral.Complete();
         }
 
-        
+        protected override void OnActivated(IActivatedEventArgs e)
+        {
+            // Was the app activated by a voice command?
+            if (e.Kind != Windows.ApplicationModel.Activation.ActivationKind.VoiceCommand)
+            {
+                return;
+            }
+
+            var commandArgs = e as Windows.ApplicationModel.Activation.VoiceCommandActivatedEventArgs;
+            rootFrame.Navigate(typeof(MainPage), commandArgs.Result);
+
+        }
     }
 }

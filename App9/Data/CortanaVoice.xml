@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
-  <CommandSet xml:lang="en-us" Name="AdventureWorksCommandSet_en-us">
-    <CommandPrefix> Adventure Works, </CommandPrefix>
-    <Example> Show trip to London </Example>
+  <CommandSet xml:lang="en-us" Name="App9CommandSet_en-us">
+    <CommandPrefix> Hello app, </CommandPrefix>
+    <Example> In App9 </Example>
 
-    <Command Name="showTripToDestination">
-      <Example> show trip to London  </Example>
-      <ListenFor> show trip to {destination} </ListenFor>
-      <Feedback> Showing trip to {destination} </Feedback>
+    <Command Name="blankCanvas">
+      <Example> Give me a blank canvas with red background </Example>
+      <ListenFor> [with] {color} background </ListenFor>
+      <ListenFor> Give me a blank canvas with [a] {color} background </ListenFor>
+      <ListenFor> Give me a blank {color} canvas </ListenFor>
+      <Feedback> Giving you a blank {color} canvas </Feedback>
       <Navigate/>
     </Command>
 
-    <PhraseList Label="destination">
-      <Item> London </Item>
-      <Item> Dallas </Item>
-      <Item> New York </Item>
+    <PhraseList Label="color">
+      <Item>Red</Item>
+      <Item>Blue</Item>
+      <Item>Yellow</Item>
+      <Item>Green</Item>
     </PhraseList>
 
-    <PhraseTopic Label="newDestination" Scenario="Search">
-      <Subject>City/State</Subject>
-    </PhraseTopic>
   </CommandSet>
 
   <!-- Other CommandSets for other languages -->
