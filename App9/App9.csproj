@@ -138,6 +138,9 @@
     <Compile Include="Pages\Complete.xaml.cs">
       <DependentUpon>Complete.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Cortana.xaml.cs">
+      <DependentUpon>Cortana.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DeviceSpecificView.xaml.cs">
       <DependentUpon>DeviceSpecificView.xaml</DependentUpon>
     </Compile>
@@ -167,6 +170,9 @@
     </Compile>
     <Compile Include="Pages\InAppPurchase.xaml.cs">
       <DependentUpon>InAppPurchase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Marvel.xaml.cs">
+      <DependentUpon>Marvel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MediaLibrary.xaml.cs">
       <DependentUpon>MediaLibrary.xaml</DependentUpon>
@@ -242,6 +248,7 @@
     <Content Include="Assets\UnderwaterRays_ROW13751361322_1366x768.jpg" />
     <Content Include="Assets\WaterCisterns_ROW14099488641_1920x1080.jpg" />
     <Content Include="Assets\xqrarGN.jpg" />
+    <Content Include="Data\CortanaVoice.xml" />
     <Content Include="Data\WindowsStoreProxy.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -315,6 +322,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Cortana.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\DeviceSpecificView.DeviceFamily-Mobile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -358,6 +369,10 @@
     <Page Include="Pages\InAppPurchase.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Marvel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\MediaLibrary.xaml">
       <SubType>Designer</SubType>
